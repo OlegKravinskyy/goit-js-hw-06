@@ -6,7 +6,6 @@ input.addEventListener("blur", onInputFocus);
 
 function onInputFocus(event) {
   const text = event.currentTarget.value;
-  console.log(text.length);
 
   if (text.length !== inputDataLength) {
     inputClass.add("invalid");
